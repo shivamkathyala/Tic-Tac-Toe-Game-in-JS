@@ -24,12 +24,14 @@ body {
     height: 18vmin;
     width: 18vmin;
     border-radius: 1rem;
-    border: none;
+    border: 4px;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
-    color: red;
+    color: rgb(120, 212, 255);
     background-color: rgb(166, 130, 200);
+    font-weight: 900;
 }
+
 
 #reset {
     padding: 1rem;
@@ -49,7 +51,7 @@ body {
 
 .msg {
     font-size: 4rem;
-    color: rgb(144, 222, 66);
+    color: rgb(51, 94, 8);
 }
 
 .winnerInfo {
@@ -63,4 +65,8 @@ body {
 
 .hide {
     display: none;
+}
+
+.rainbow {
+    border: 1px solid black;
 }
